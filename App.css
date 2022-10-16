@@ -1,0 +1,18 @@
+.widget {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20%;
+}
+.item{
+  padding-bottom: 10%;
+}
+.App {
+  border-radius: 25px;
+   border: 10px solid red;
+     box-sizing: border-box;
+     margin-top: 5%;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-bottom: 5%;
+     background-color: #fffacd;
+}
