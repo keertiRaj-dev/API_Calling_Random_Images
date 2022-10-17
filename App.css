@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+
+
 .widget {
   margin-left: auto;
   margin-right: auto;
@@ -15,4 +18,94 @@
      margin-right: 20%;
      margin-bottom: 5%;
      background-color: #fffacd;
+}
+
+ .fadedbox {
+     background-color: #666666;
+     position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+     color: #fff;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+     opacity: 0;
+     width: 150px;
+     height: auto;
+   }
+   .example:hover .fadedbox {
+     opacity: 1;
+     text-align: center;
+   }
+   .example .text {
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+     transform: translateY(30px);
+     -webfont-size: 1rem;
+   }
+   .example .title {
+     font-size: 1em;
+     text-transform: uppercase;
+     opacity: 0;
+     transition-delay: 0.2s;
+     transition-duration: 0.3s;
+   }
+   .example:hover .title,
+   .example:focus .title {
+     opacity: 1;
+     transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+   }
+
+
+    .fadedbox2 {
+        background-color: white;
+        position: relative;
+       margin-top: -50px;;
+       margin-left: 0px;
+        color: black;
+        opacity: 0;
+        width: 150px;
+        height: auto;
+      }
+      .example:hover .fadedbox2 {
+        opacity: 1;
+        text-align: center;
+      }
+      .example .text2 {
+      font-family: 'Fuzzy Bubbles', cursive;
+        -webfont-size: 1rem;
+      }
+      .example .title2 {
+        font-size: 1em;
+        text-transform: uppercase;
+        opacity: 0;
+        transition-delay: 0.2s;
+        transition-duration: 0.3s;
+      }
+      .example:hover .title2,
+      .example:focus .title2 {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+      }
+
+.text3 {
+  position: absolute;
+  left:auto;
+  text-align: center;
+ font-size: 3rem;
+ transition:font-size 12s;
+      -moz-transition:font-size 12s; /* Firefox 4 */
+      -webkit-transition:font-size 12s; /* Safari and Chrome */
+      -o-transition:font-size 12s;
+      transition:color 12s;
+      -moz-transition:color 12s; /* Firefox 4 */
+      -webkit-transition:color 12s; /* Safari and Chrome */
+      -o-transition:color 12s;
 }
